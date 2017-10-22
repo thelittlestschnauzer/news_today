@@ -14,6 +14,10 @@ class NewsToday::CLI
       5. MSN
       6. NPR
       DOC
+      list_top_stories
   end
 
+  def list_top_stories
+    puts "Enter the number to see the stories on that network. Type 'list' to see the list of networks again or type 'exit' when you are done."
+  end
 end
